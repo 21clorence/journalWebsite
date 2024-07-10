@@ -1,12 +1,25 @@
 {
   "name": "server",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "description": "",
+  "type": "module",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "mongodb": "^6.8.0"
+  },
+  "resolutions": {
+    "postcss": "^8.3.11"
+  },
+  "devDependencies": {
+    "stylelint": "^16.6.1",
+    "stylelint-config-standard": "^36.0.1"
+  }
 }
